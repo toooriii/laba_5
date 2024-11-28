@@ -12,3 +12,4 @@ def circumference(radius):
         raise ValueError("Радиус не может быть отрицательным")
     return 2 * math.pi * radius
 #for commit
+#for commit
