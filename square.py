@@ -6,6 +6,6 @@ def area(side):
 
 def perimeter(side):
     """Вычисление периметра квадрата."""
-    if side < 0:
+    if side <  0:
         raise ValueError("Сторона квадрата не может быть отрицательной")
     return 4 * side
